@@ -18,3 +18,74 @@ body {
 	font-size: 16px
 	font: Geneva;
 }
+
+#menu-top-nav {
+	
+	color: #FFFFFF;
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+	
+}
+
+#menu-top-nav li {
+    float: left;
+    position: relative;
+    display:block; /* odpowiada za usunięcie kropek przy wypunktowaniu*/
+}
+
+#menu-top-nav ul {
+    list-style: none outside none;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    padding-bottom: 20px;
+	
+	
+}
+
+.semantic-list {
+    list-style-type: none;
+    display:block;
+    height:20px;
+    background: #ffbb44;
+    width:80px;
+    font-size:0.8em;
+    color:#F0F0F0;
+    text-align:center;
+    text-decoration:none;
+    
+}
+
+li{
+	padding-bottom: 10px;
+	border-bottom: 20px;
+	/* float:left;  float odpowiada za ustawienie tekstu, czy ma być lista jedno pod drugim, czy obok siebie do lewej albo do prawej itp */
+	height:20px;
+	line-height: 20px;
+	width: 120px;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #000;   
+	text-align:center;
+	margin:5px;
+}
+
+ul li{
+	float:left;
+	display:block;
+	position:static;
+	margin:20px 5px 20px 5px;
+	
+}
+
+.Container {
+	width: 1200px;
+	height: 2000px;
+	margin:5px auto 0;
+	border: 1px solid #000;
+} 
+
+	
