@@ -49,14 +49,17 @@ body {
 .semantic-list {
     list-style-type: none;
     display:block;
-    height:20px;
+   
+    height; 40px;
     background: #ffbb44;
-    width:80px;
+    width:1200px;
     font-size:0.8em;
     color:#F0F0F0;
     text-align:center;
     text-decoration:none;
-    
+    float:right;
+   
+ 
 }
 
 li{
