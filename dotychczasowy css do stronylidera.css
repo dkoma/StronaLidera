@@ -1,0 +1,167 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+    border: 0 none;
+   /* font: inherit; */
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+	
+	background: #c0cdde; 
+	font-size: 16px
+}
+
+header[role="banner"]{
+	
+	background: #f2aa0e;
+	height: 200 px;
+	width: 100%;
+	
+}
+
+article { 
+ 
+	background:url(aaa.png) no-repeat 100px 50px;
+	height:1072px;
+	text-align:center;
+	
+	
+}
+
+h1 {
+	
+    font-size: 2em;
+    letter-spacing: -2px;
+    line-height: 1;
+    word-spacing: 2px;
+
+}
+
+
+
+header hgroup h1 {
+    background: url("liderlogo.png") no-repeat scroll 0 0 transparent;
+    display: block;
+    height: 300px;
+    text-indent: -9999em;
+}
+
+#menu-top-nav {
+	
+	color: #FFFFFF;
+    font-size: 14px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+	
+}
+
+#menu-top-nav ul {
+    left: -9999px;
+    list-style: none outside none;
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+}
+
+#menu-top-nav li {
+    float: left;
+    position: relative;
+}
+
+#menu-top-nav ul li {
+    clear: both;
+    margin: 5px 0;
+}
+
+.semantic-list {
+    list-style-type: none;
+}
+
+.inner {
+    margin: 50px 20px 150px 20px;
+    position: relative;
+    width: 1020px;
+    height: 20px;
+}
+nav {
+	
+
+
+    margin: 0px auto 0;
+    padding: 24px 0 0;
+    width: 1020px; }
+ 
+
+p {
+	
+	float: left;
+    margin: 0 50px 0px 50px;
+    padding: 10px 10px 10px 10px;
+	padding-bottom: 10px;
+	border-bottom: 20px;
+	display:block;
+	height:20px;
+
+	width: 900px;
+	font-size: 1.4em;
+
+	color: #000;   
+	text-align: justify;
+
+
+
+} 
+
+.main {
+	
+	float: left;
+    margin: 0 18px 0 0;
+    padding: 0 18px 0 0;
+    position: relative;
+    width: 1200px; 
+    
+}
+
+header {
+	
+	margin:10px 30px 10px 20px;
+	height:30px;
+	weight:300px;
+	background: #1a64ab;
+	font-size: 1em;
+	
+}
+li{
+	padding-bottom: 10px;
+	border-bottom: 20px;
+	float:left; /* float odpowiada za ustawienie tekstu, czy ma być lista jedno pod drugim, czy obok siebie do lewej albo do prawej itp */
+	display:block;
+	height:20px;
+	line-height: 20px;
+	width: 120px;
+	font-size: 1.2em;
+	font-weight: bold;
+	color: #000;   
+	text-align:center;
+	margin:5px;
+}
+	
+.Container {
+	width: 1200px;
+	height: 2000px;
+	margin:5px auto 0;
+	border: 1px solid #000;
+}
+
+
+
+	
