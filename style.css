@@ -30,14 +30,14 @@ header hgroup h1 {
     display: block;
     height: 205px;
     text-indent: -9999em;
-    margin:0;
+    margin:20px;
     
 }
 
 header hgroup h2 {
 	
 	text-align:left;
-	margin:0 340px 20px 340px;
+	margin: 0 360px 40px 360px;
 	font-size: 40px;
 	top:-25px;
 }
@@ -106,6 +106,23 @@ ul li{
 	position:static;
 	margin:20px 5px 20px 5px;
 	
+}
+
+ul li a {
+	
+	display:block;
+	height:20px;
+	line-height:20px;
+	background:#1A64AB;
+	width:80px;
+	font-size:0.8em;
+	font-weight:bold;
+	color:#000000;
+	text-align:center;
+	text-decoration:none;
+	margin:7px;
+	border-radius:5px;
+	-moz-border-radius: 5px;
 }
 
 .Container {
