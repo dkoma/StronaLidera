@@ -19,15 +19,24 @@ body {
 	font: Geneva;
 }
 
-header{
+p{
 	
+	margin:100px 30px 20px 30px;
+	justify:center;
+
+
+
+}
+
+header hgroup h1 h2{
 	
-	
+		
+	text-bottom: vertical;
 }
 
 header hgroup h1 {
     background: url("liderlogo.png") no-repeat scroll 0 0 transparent;
-    display: block;
+    
     height: 205px;
     text-indent: -9999em;
     margin:20px;
@@ -36,7 +45,9 @@ header hgroup h1 {
 
 header hgroup h2 {
 	
+
 	text-align:left;
+	
 	margin: 0 360px 40px 360px;
 	font-size: 40px;
 	top:-25px;
@@ -57,6 +68,7 @@ header hgroup h2 {
     float: left;
     position: relative;
     display:block; /* odpowiada za usunięcie kropek przy wypunktowaniu*/
+	  background-position: 0 21px;
 }
 
 #menu-top-nav ul {
@@ -74,9 +86,10 @@ header hgroup h2 {
     list-style-type: none;
     display:block;
    
-    height; 40px;
+    height; 50px;
+    weight: 60px;
     background: #ffbb44;
-    width:1200px;
+    width:1000px;
     font-size:0.8em;
     color:#F0F0F0;
     text-align:center;
@@ -90,9 +103,9 @@ li{
 	padding-bottom: 10px;
 	border-bottom: 20px;
 	/* float:left;  float odpowiada za ustawienie tekstu, czy ma być lista jedno pod drugim, czy obok siebie do lewej albo do prawej itp */
-	height:20px;
+	height:7px;
 	line-height: 20px;
-	width: 120px;
+	width: 100px;
 	font-size: 1.2em;
 	font-weight: bold;
 	color: #000;   
@@ -100,36 +113,70 @@ li{
 	margin:5px;
 }
 
+
 ul li{
 	float:left;
 	display:block;
 	position:static;
-	margin:20px 5px 20px 5px;
+	margin:20px 0 20px 5px;
 	
 }
 
 ul li a {
 	
 	display:block;
-	height:20px;
-	line-height:20px;
-	background:#1A64AB;
-	width:80px;
-	font-size:0.8em;
+	height:30px;
+	line-height:30px;
+	
+	width:110px;
+	font-size:0.9em;
 	font-weight:bold;
 	color:#000000;
 	text-align:center;
 	text-decoration:none;
-	margin:7px;
-	border-radius:5px;
-	-moz-border-radius: 5px;
+	margin:7px 0 0 40px;
+	border-radius:20px 20px 0  0;
+	-moz-border-radius: 10px 0 0 0;
+	
+	/*Gradients*/
+background: #627d4d; /* Old browsers */
+background: -moz-linear-gradient(top, #627d4d 0%, #1f3b08 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#627d4d), color-stop(100%,#1f3b08)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #627d4d 0%,#1f3b08 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #627d4d 0%,#1f3b08 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #627d4d 0%,#1f3b08 100%); /* IE10+ */
+background: linear-gradient(to bottom, #627d4d 0%,#1f3b08 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#627d4d', endColorstr='#1f3b08',GradientType=0 ); /* IE6-9 */
+
+
 }
 
+ul li a:hover {
+	background: #081903; /* Old browsers */
+background: -moz-linear-gradient(top, #081903 2%, #1e4209 100%, #48603c 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(2%,#081903), color-stop(100%,#1e4209), color-stop(100%,#48603c)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #081903 2%,#1e4209 100%,#48603c 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #081903 2%,#1e4209 100%,#48603c 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #081903 2%,#1e4209 100%,#48603c 100%); /* IE10+ */
+background: linear-gradient(to bottom, #081903 2%,#1e4209 100%,#48603c 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#081903', endColorstr='#48603c',GradientType=0 ); /* IE6-9 */
+	
+}
+
+
 .Container {
-	width: 1200px;
-	height: 2000px;
+	width: 1000px;
+	height: 1800px;
 	margin:5px auto 0;
 	border: 1px solid #000;
+	background: url("aaa.png") no-repeat scroll  ;
 } 
 
+#article{
 	
+	width:1000px;
+	height: 1800px;
+	margin:5px auto 0;
+	
+	
+}
