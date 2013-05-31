@@ -21,7 +21,7 @@ body {
 
 p{
 	
-	margin:100px 30px 20px 30px;
+	margin:150px 30px 20px 30px;
 	justify:center;
 
 
@@ -95,7 +95,7 @@ header hgroup h2 {
     text-align:center;
     text-decoration:none;
     float:right;
-   
+  	border-radius: 5px 5px 0 0;
  
 }
 
@@ -167,8 +167,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#081903', end
 .Container {
 	width: 1000px;
 	height: 1800px;
-	margin:5px auto 0;
-	border: 1px solid #000;
+	margin:10px auto 0;
+	border-radius:5px 5px 0 0;
 	background: url("aaa.png") no-repeat scroll  ;
 } 
 
@@ -176,7 +176,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#081903', end
 	
 	width:1000px;
 	height: 1800px;
-	margin:5px auto 0;
+	margin:20px auto 0;
 	
 	
 }
