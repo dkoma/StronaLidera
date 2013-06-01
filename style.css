@@ -1,4 +1,4 @@
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+0html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
     border: 0 none;
    /* font: inherit; */
     margin: 0;
@@ -13,46 +13,69 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 
 body {
-	
-	background: #ec9c10; 
+	background: url("iglak.png") bottom right no-repeat #fff  ;
 	font-size: 16px
 	font: Geneva;
+	margin:0;
+	line-height:1.88889;
+	padding:0;
+	color:#555753;
 }
 
 p{
 	
 	margin:100px 30px 20px 30px;
 	justify:center;
-
-
-
+	text:justify;
 }
 
 hgroup h1 h2{
 	
-	display:inline-block;
-	text-bottom: vertical;
+
+	
+
 }
 
+h2{
+	  
+	
+}
 header hgroup h1 {
     
-    background: url("liderlogo.png") no-repeat;
-    height: 205px;
-    text-indent: -9999em;
-    margin:20px;
+    background: url("liderlogo.png") top left no-repeat transparent;
+    margin-top:10px;
+    display:block;
+    width:350px;
+    height:210px;
+    text-indent: 100%;
+    float:left;
+    white-space:nowrap;
+    overflow:hidden;
     
 }
 
 header hgroup h2 {
 	
-
-	text-align:left;
 	
-	margin: 0 360px 40px 360px;
-	font-size: 40px;
-	top:-25px;
+	margin: 0;
+	font-size:40px;
+
+	letter-spacing: 1px; /* przerwy między literami*/
+	width:800px;
+    height:210px;
+    top:inherit;
+	margin-top:50px;
+	margin-bottom:200px;
+	 white-space:nowrap;
+    overflow:hidden;
+	
 }
 
+header{
+	
+	padding-top: 20px;
+	height:300px;
+}
 
 #menu-top-nav {
 	
@@ -82,6 +105,14 @@ header hgroup h2 {
 	
 }
 
+#main{
+	
+	height:40px;
+	width:700px;
+	margin:0 20px;
+	
+}
+
 .semantic-list {
     list-style-type: none;
     display:block;
@@ -89,7 +120,7 @@ header hgroup h2 {
     height; 50px;
     weight: 60px;
     background: #ffbb44;
-    width:1000px;
+    width:700px;
     font-size:0.8em;
     color:#F0F0F0;
     text-align:center;
@@ -166,19 +197,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#081903', end
 
 
 .Container {
-	width: 1000px;
+	width: 700px;
 	height: 1800px;
 	margin:10px auto 0;
 	border-radius:50px 50px 0 0;
-		-moz-border-radius: 50px 50px 0 0;
-	background: url("aaa.png") no-repeat scroll  ;
-} 
+	-moz-border-radius: 50px 50px 0 0;
+	}
+
+	
 
 #article{
 	
-	width:1000px;
-	height: 1800px;
+	width:700px;
+	height: 1000px;
 	margin:20px auto 0;
+	background: #ec9c10;
+	opacity: 0.7;
+} 
 	
 	
-}
