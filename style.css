@@ -21,22 +21,22 @@ body {
 
 p{
 	
-	margin:150px 30px 20px 30px;
+	margin:100px 30px 20px 30px;
 	justify:center;
 
 
 
 }
 
-header hgroup h1 h2{
+hgroup h1 h2{
 	
-		
+	display:inline-block;
 	text-bottom: vertical;
 }
 
 header hgroup h1 {
-    background: url("liderlogo.png") no-repeat scroll 0 0 transparent;
     
+    background: url("liderlogo.png") no-repeat;
     height: 205px;
     text-indent: -9999em;
     margin:20px;
@@ -95,8 +95,8 @@ header hgroup h2 {
     text-align:center;
     text-decoration:none;
     float:right;
-  	border-radius: 5px 5px 0 0;
- 
+  	border-radius: 25px 25px 0 0;
+	-moz-border-radius:  25px 25px 0 0;
 }
 
 li{
@@ -136,7 +136,7 @@ ul li a {
 	text-decoration:none;
 	margin:7px 0 0 40px;
 	border-radius:20px 20px 0  0;
-	-moz-border-radius: 10px 0 0 0;
+	-moz-border-radius: 20px 20px 0  0;
 	
 	/*Gradients*/
 background: #627d4d; /* Old browsers */
@@ -164,11 +164,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#081903', end
 }
 
 
+
 .Container {
 	width: 1000px;
 	height: 1800px;
 	margin:10px auto 0;
-	border-radius:5px 5px 0 0;
+	border-radius:50px 50px 0 0;
+		-moz-border-radius: 50px 50px 0 0;
 	background: url("aaa.png") no-repeat scroll  ;
 } 
 
