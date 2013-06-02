@@ -27,6 +27,7 @@ p{
 	margin:100px 30px 20px 30px;
 	justify:center;
 	text:justify;
+	
 }
 
 hgroup h1 h2{
@@ -59,7 +60,7 @@ header hgroup h2 {
 	
 	margin: 0;
 	font-size:40px;
-
+	color:#231f20;
 	letter-spacing: 1px; /* przerwy między literami*/
 	width:800px;
     height:210px;
@@ -67,8 +68,9 @@ header hgroup h2 {
 	margin-top:50px;
 	margin-bottom:200px;
 	 white-space:nowrap;
+	 
     overflow:hidden;
-	
+	 position:absolute; top:125px; left:310px;
 }
 
 header{
@@ -89,7 +91,7 @@ header{
 
 #menu-top-nav li {
     float: left;
-    position: relative;
+  
     display:block; /* odpowiada za usunięcie kropek przy wypunktowaniu*/
 	  background-position: 0 21px;
 }
@@ -97,7 +99,7 @@ header{
 #menu-top-nav ul {
     list-style: none outside none;
     margin: 0;
-    position: absolute;
+
     top: 100%;
     width: 100%;
     padding-bottom: 20px;
@@ -118,7 +120,7 @@ header{
     display:block;
    
     height; 50px;
-    weight: 60px;
+   
     background: #ffbb44;
     width:700px;
     font-size:0.8em;
@@ -202,15 +204,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#081903', end
 	margin:10px auto 0;
 	border-radius:50px 50px 0 0;
 	-moz-border-radius: 50px 50px 0 0;
+	
 	}
 
 	
 
 #article{
 	
-	width:700px;
+
 	height: 1000px;
-	margin:20px auto 0;
+
+	
 	background: #ec9c10;
 	opacity: 0.7;
 } 
