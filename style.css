@@ -9,7 +9,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+<<<<<<< Updated upstream
     display: block;
+=======
+   display:block;
+>>>>>>> Stashed changes
 }
 
 body {
@@ -25,6 +29,7 @@ p{
 	justify:center;
 
 
+<<<<<<< Updated upstream
 
 }
 
@@ -33,6 +38,9 @@ header hgroup h1 h2{
 		
 	text-bottom: vertical;
 }
+=======
+
+>>>>>>> Stashed changes
 
 header hgroup h1 {
     background: url("liderlogo.png") no-repeat scroll 0 0 transparent;
@@ -41,16 +49,53 @@ header hgroup h1 {
     text-indent: -9999em;
     margin:20px;
     
+<<<<<<< Updated upstream
+=======
+    background: url("liderlogo.png") top left no-repeat transparent;
+	width: 350px;
+    height: 210px;
+    text-indent: 100%;
+    float: left;
+    white-space: nowrap;
+    overflow: hidden;
+    inline-block:0px;
+    
+ 
+>>>>>>> Stashed changes
 }
 
 header hgroup h2 {
 	
+<<<<<<< Updated upstream
+=======
+
+	font-size: 40px;
+	color: #231f20; 
+	letter-spacing: 1px; /* przerwy między literami*/
+
+    height: 410px;
+    float: left;
+	
+    top: inherit;
+	margin-top: 50px;
+	margin-bottom: 200px;
+	white-space: nowrap;
+	overflow: hidden;
+	position:absolute; top:60px bottom:275px; left:310px; height:100px;
+	/*position: absolute; top:125px; left:310px; /* pozycja absolute umożliwia sterowaniem danym obiektem wewnątrz innego. pozycja static sprawia, ze dany obiekt pozostaje w miejscu jakie ma przypisane z natury z kodzie*/
+}
+>>>>>>> Stashed changes
 
 	text-align:left;
 	
+<<<<<<< Updated upstream
 	margin: 0 360px 40px 360px;
 	font-size: 40px;
 	top:-25px;
+=======
+	padding-top: 20px;
+	
+>>>>>>> Stashed changes
 }
 
 
@@ -115,10 +160,18 @@ li{
 
 
 ul li{
+<<<<<<< Updated upstream
 	float:left;
 	display:block;
 	position:static;
 	margin:20px 0 20px 5px;
+=======
+	
+	float: left;
+	display: block;
+	
+	margin: 20px 0 20px 5px;
+>>>>>>> Stashed changes
 	
 }
 
@@ -163,6 +216,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#081903', end
 	
 }
 
+<<<<<<< Updated upstream
 
 .Container {
 	width: 1000px;
@@ -177,6 +231,61 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#081903', end
 	width:1000px;
 	height: 1800px;
 	margin:20px auto 0;
+=======
+.semantic-list {
+    
+    list-style-type: none;
+    weight:100px;
+   	height: 57px;
+   	background: #ffbb44;
+   	font-size: 0.8em;
+ 	text-align: center;
+    text-decoration: none;
+    margin:auto border:300px;
+
+	border-radius: 25px 25px 0 0;
+	-moz-border-radius:  25px 25px 0 0;
+	
+}
+
+
+
+	
+
+#article{
+	
+	height: 750px;
+	width: 700px;
+	background: #ec9c10;
+	opacity: 0.7;
+	font:Arial, Helvetica, sans-serif;
+	margin: auto;
+	
+
+
+	
+	
+
+	
+} 
+
+#article-nav{
+	height: 1000px;
+	weight: 600px;
+	font:"Arial Black";
+	text-align:center;
+	color: #F0F0F0;
+	font-size:16px;
+	text-shadow: 2px;
+
+	float:center;
+
+	bottom:20px;
+	margin:0 200px  ;
+	background:#EC9C10 ;
+			
+	opacity:0.7;
+>>>>>>> Stashed changes
 	
 	
 }
