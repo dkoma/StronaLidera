@@ -204,32 +204,27 @@ ul li a:hover {
 	
 	height: 750px;
 	width: 700px;
-	background: #ec9c10;
-	opacity: 0.7;
 	font:Arial, Helvetica, sans-serif;
-	margin: 0 700px 0 700px;
 	
 
 	
 } 
 
-#article-nav{
-	height: 1000px;
-	weight: 600px;
+nav{
+	
+	height:700px;
+	width:900px;
 	font:"Arial Black";
 	text-align:center;
 	color: #F0F0F0;
 	font-size:16px;
 	text-shadow: 2px;
-
 	float:center;
-
 	bottom:20px;
 	margin:0 200px  ;
 	background:#EC9C10 ;
-			
 	opacity:0.7;
-	
+	border-left-width: 40px; padding-left: 0px; margin-left: 400px; margin-right: 400px; margin-top: 0px; border-top-width: 0px;
 	
 }
 	
