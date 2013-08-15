@@ -11,62 +11,67 @@
 body{
 	
  
-    width: 1903px;
-    height: 1000px;
-
+    width: 1200px;
+	margin-left:auto;
+	margin-right:auto;
 }
 
-div.menu1 {
+div.menu-glowne{
 	
+	width:auto;
+}
 
+
+div.menu1 li a{
+	
 	float:right;
-
-    height: 106px;
     margin-bottom: 26px;
-
-    margin-right: auto;
     margin-top: 0;
-    padding-right: 250px;
-    text-align: center;
-  	width: 354px;
+  	text-align: center;
+  	width: 110px;
+	display: block;
+	height: 40px;
+	line-height:40px; /*to pozwala na uzyskanie tekstu na środku obiektu, musi mieć taką samą wartość jak wysokość*/
+	font-weight:bold;
+	color:#000000;
+	font-size: 1.0em;
+	text-decoration: none;
+	background-color: #598527;
+	border-radius:5px 15px 0 0 ;
+	border: 1px solid #081903;
 	
 }
 
-div.menu2 {
+div.menu2 li a{
 	
- 	margin-bottom: 27px;
-    margin-left: 352px;
-    margin-right: 421px;
-    margin-top: 0px;
-    text-align: center;
-
+	float:left;
+	display: block;
+	height: 40px;
+	line-height:40px; /*to pozwala na uzyskanie tekstu na środku obiektu, musi mieć taką samą wartość jak wysokość*/
+	width: 120px;
+	font-weight:bold;
+	color:#000000;
+	font-size: 1.0em;
+	text-decoration: none;
+	background-color: #598527;
+	border-radius:5px 15px 0 0 ;
+	border: 1px solid #081903;
+	text-align: center;
 }
 
 h1{
 	
 	 background-image: url("panorama.png");
-     background-repeat: repeat;
-     width:1900px;
+     background-repeat: no-repeat;
+     background-position:center;
+     width:auto;
      height:300px;
 	
 }
 
-h1 img{
-	
-	text-align:center;
-	position:left;
-	padding-left:400px;
-
-	
-	}
-	
-
-
-
 h1.wyjatek {
 	
 	text-align:center;
-		
 	
 }
 
@@ -77,60 +82,34 @@ h2 {
 }
 
 
-ul{
+ul {
 	
  	list-style-type: none; /* niweluje kropki przy liście*/
+	width:100%;
+}
+
+
+ul li a:hover {
+	
+	background-color:#1E4209;
 
 }
 
-a.first{
+a.first {
 	
 	background-color:#081903 ;
 	color: #FFFFFF;
 }
 
-ul li a{
-	
-	float: left;
-	display: block;
-	height: 40px;
-	line-height:40px; /*to pozwala na uzyskanie tekstu na środku obiektu, musi mieć taką samą wartość jak wysokość*/
-	width: 110px;
-	font-weight:bold;
-	color:#000000;
-	font-size: 1.0em;
-
-	text-decoration: none;
-	background-color: #598527;
-	margin:1px;
-	
-	border-radius:5px 15px 0 0 ;
-	border: 1px solid #081903;
-}
 
 
-
-
-
- ul li a:hover {
-	
-	background-color:#1E4209;
-	
-	
-	
-}
-
-
-
-.subject {
+div.subject {
 	
 	text-align: left;
 	background: #FFFFFF;
-	width: 900px;
-	height: 2080px;
-	padding-top: 10px;
-	margin-left: 393px;
-
+	width: 1200px;
+	margin-left:auto;
+	margin-right:auto;
 
 }
 
@@ -139,31 +118,18 @@ ul li a{
 	text-align: left;
 	background: #48603C;
 	width: 1200px;
-	height: 4000px; 
-	padding-top: 10px;
-	margin-left: 393px;
-	border-left-width: 0px; 
-	padding-left: 0px;  
+	height: 4000px;   
 
 }
 
-p.margin{
-	 
-	 padding-left: 40px;
-	
-}
 
-
-#zakladka {
+.zakladka {
 	
 background-color: #081903;
-padding-top: 0px; 
-margin-top: 70px; 
-height: 10px; 
-width: 900px; 
-padding-left: 0px; 
-border-left-width: 0px; 
-margin-left: 393px;
+width:auto;
+height:10px;
+margin-top:64px;
+
 	
 }
 
