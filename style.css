@@ -14,6 +14,7 @@ body{
     width: 1200px;
 	margin-left:auto;
 	margin-right:auto;
+
 }
 
 div.menu-glowne{
@@ -113,12 +114,21 @@ div.subject {
 
 }
 
+h3 a {
+	
+	text-decoration:none;
+	color:#231F20;
+
+}
+
+
+
 .subject-statut{
 	
 	text-align: left;
-	background: #48603C;
+	background: #FFBB44;
 	width: 1200px;
-	height: 4000px;   
+	height: 4300px;   
 
 }
 
