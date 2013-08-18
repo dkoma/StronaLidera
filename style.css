@@ -14,139 +14,41 @@ body{
     width: 1200px;
 	margin-left:auto;
 	margin-right:auto;
-
-}
-
-div.menu-glowne{
-	
-	width:auto;
-}
-
-
-div.menu1 li a{
-	
-	float:right;
-    margin-bottom: 26px;
-    margin-top: 0;
-  	text-align: center;
-  	width: 110px;
-	display: block;
-	height: 40px;
-	line-height:40px; /*to pozwala na uzyskanie tekstu na środku obiektu, musi mieć taką samą wartość jak wysokość*/
-	font-weight:bold;
-	color:#000000;
-	font-size: 1.0em;
-	text-decoration: none;
-	background-color: #598527;
-	border-radius:5px 15px 0 0 ;
-	border: 1px solid #081903;
 	
 }
 
-div.menu2 li a{
+div.ramka{
 	
-	float:left;
-	display: block;
-	height: 40px;
-	line-height:40px; /*to pozwala na uzyskanie tekstu na środku obiektu, musi mieć taką samą wartość jak wysokość*/
-	width: 120px;
-	font-weight:bold;
-	color:#000000;
-	font-size: 1.0em;
-	text-decoration: none;
-	background-color: #598527;
-	border-radius:5px 15px 0 0 ;
-	border: 1px solid #081903;
-	text-align: center;
+	border:20px solid #444444;
+	background-color:#081903;
+/* wstawić gradient od jasnego biało szarego - po ciemną zieleń*/
 }
-
-h1{
-	
-	 background-image: url("panorama.png");
-     background-repeat: no-repeat;
-     background-position:center;
-     width:auto;
-     height:300px;
-	
-}
-
-h1.wyjatek {
-	
-	text-align:center;
-	
-}
-
-h2 {
-	
-	text-align:center;
-	
-}
-
 
 ul {
 	
- 	list-style-type: none; /* niweluje kropki przy liście*/
-	width:100%;
-}
-
-
-ul li a:hover {
-	
-	background-color:#1E4209;
-
-}
-
-a.first {
-	
-	background-color:#081903 ;
-	color: #FFFFFF;
-}
-
-
-
-div.subject {
-	
-	text-align: left;
-	background: #FFFFFF;
-	width: 1200px;
-	margin-left:auto;
-	margin-right:auto;
-
-}
-a<>
-
-h3 a {
-	
-	text-decoration:none;
-	color:#231F20;
-
-}
-
-
-
-.subject-statut{
-	
-	text-align: left;
-	background: #FFBB44;
-	width: 1200px;
-	height: 4300px;   
-
-}
-
-
-.zakladka {
-	
-background-color: #081903;
-width:auto;
-height:10px;
-margin-top:64px;
-
+	list-style-type:none;
 	
 }
 
-table{
+li a{
+ 
+ 	text-decoration:none;
+
+	}
 	
-float:inherit
+ul li a {
 	
+	width:125px;
+	height:50px;
+	line-height:50px;
+	font-size:100%;
+	font-weight:bold;
+	color:#CCCCCC;
+	text-align:center;
+
+	display:block;
+	background:#1E4209;
+	border-radius: 5px 0;
 	
 }
+
